@@ -4,7 +4,7 @@
     --light-grey-color: hsl(217, 12%, 63%);
     --dark-blue-color: hsl(213, 19%, 18%);
     --very-dark-blue-color: hsl(216, 12%, 8%);
-    
+
     --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-medium: 500;
@@ -18,4 +18,8 @@
     --font-size-h4: 18px;
     --font-size-h5: 16px;
     --font-size-paragraph: 15px;
+
+    --mobile: 375px;
+    --tablet: 768px;
+    --desktop: 1440px;
 }
