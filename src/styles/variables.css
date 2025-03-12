@@ -4,6 +4,7 @@
     --light-grey-color: hsl(217, 12%, 63%);
     --dark-blue-color: hsl(213, 19%, 18%);
     --very-dark-blue-color: hsl(216, 12%, 8%);
+    --light-grey-background: rgba(255, 255, 255, 0.05);
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -13,7 +14,7 @@
     --font-family: 'Overpass', Arial, sans-serif;
 
     --font-size-h1: 48px;
-    --font-size-h2: 36px;
+    --font-size-h2: 25px;
     --font-size-h3: 24px;
     --font-size-h4: 18px;
     --font-size-h5: 16px;
