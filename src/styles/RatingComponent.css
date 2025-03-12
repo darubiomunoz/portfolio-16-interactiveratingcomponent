@@ -1,0 +1,101 @@
+.rating-container {
+    width: 87%;
+    max-width: 37rem;
+    height: fit-content;
+    text-align: left;
+    padding: 3rem 2rem;
+    background: radial-gradient(circle at top, var(--light-grey-color) -750%, var(--dark-blue-color) 80%);
+    border-radius: 2rem;
+    box-shadow: 0 0.3rem 0.8rem var(--dark-blue-color);
+}
+
+.rating-content {
+    width: 100%;
+    height: fit-content;
+}
+
+.star-icon-container {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: var(--dark-blue-color);
+    border-radius: 50%;
+}
+
+.star-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rating-content h2 {
+    color: var(--white-color);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 1rem;
+}
+
+.rating-content p {
+    color: var(--light-grey-color);
+    font-size: var(--font-size-paragraph);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 2rem;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.rating-buttons {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.rating-buttons button {
+    width: 5rem;
+    height: 5rem;
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-bold);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--light-grey-background);
+    color: var(--light-grey-color);
+    border: none;
+    cursor: pointer;
+}
+
+.rating-buttons button.active {
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
+}
+
+.rating-buttons button:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-blue-color);
+}
+
+.submit-button {
+    width: 100%;
+    height: fit-content; 
+    padding: 10px 20px;         
+    font-size: var(--font-size-h5);
+    font-weight: var(--font-weight-bold);
+    background-color: var(--primary-color);
+    color: var(--dark-blue-color);
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    letter-spacing: .2rem;
+}
+
+.submit-button:hover {
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
+}
