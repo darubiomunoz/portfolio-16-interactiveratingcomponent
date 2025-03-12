@@ -11,7 +11,7 @@ const AppProvider = ({ children }) => {
     }
 
     const handleSubmit = () => {
-        setSubmitted(true);
+        setSubmitted(!submitted);
     }
 
     return (
