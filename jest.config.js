@@ -5,6 +5,10 @@ export default {
     },
     moduleNameMapper: {
         '\\.(css|less)$': 'identity-obj-proxy',
+        '\\.svg$': 'jest-transform-stub',
     },
+    transformIgnorePatterns: [
+        '/node_modules/',
+    ],
     setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
 };
