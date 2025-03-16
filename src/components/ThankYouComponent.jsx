@@ -20,4 +20,6 @@ const ThankYouComponent = () => {
     );
 }
 
-export { ThankYouComponent };
+const MemoizedThankYouComponent = React.memo(ThankYouComponent);
+
+export { MemoizedThankYouComponent as ThankYouComponent };
