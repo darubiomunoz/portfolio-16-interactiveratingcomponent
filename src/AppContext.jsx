@@ -26,5 +26,6 @@ const AppProvider = ({ children }) => {
         </AppContext.Provider>  
     )
 }
+const MemoizedAppProvider = React.memo(AppProvider);
 
-export { AppProvider, AppContext };
+export { MemoizedAppProvider as AppProvider, AppContext };

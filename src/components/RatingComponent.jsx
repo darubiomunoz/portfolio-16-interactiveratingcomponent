@@ -32,4 +32,6 @@ const RatingComponent = () => {
     );
 };
 
-export { RatingComponent };
+const MemoizedRatingComponent = React.memo(RatingComponent);
+
+export { MemoizedRatingComponent as RatingComponent };
