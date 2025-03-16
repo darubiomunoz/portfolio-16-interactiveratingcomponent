@@ -11,6 +11,10 @@ const AppProvider = ({ children }) => {
     }
 
     const handleSubmit = () => {
+        if (rating === null) {
+            alert("Please rate the product before submitting.");
+            return;
+        }
         setSubmitted(!submitted);
     }
 
